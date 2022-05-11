@@ -7,6 +7,25 @@
     <title>accueil</title>
 </head>
 <body>
-    
+    <header>
+        <?php
+            require('elements/header.php');
+        ?>
+    </header>
+
+    <main>
+        <input id="barreDeRecherche" onkeyup="search_soda()" type="text"
+        name="recherche" placeholder="Recherche">
+    </main>
+
+
+
+
+
+
+
+    <footer>
+
+    </footer>
 </body>
 </html>

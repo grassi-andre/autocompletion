@@ -1,0 +1,28 @@
+/*  HEADER  */
+
+
+
+.header-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #826AED;
+  }
+  
+  .header-li {
+    float: left;
+  }
+  
+  .header-li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } */
+  
+  /* Pour changer la couleur de la navbar quand on passe la souris  */
+  .header-li a:hover {
+    background-color: #C879FF;
+  }
